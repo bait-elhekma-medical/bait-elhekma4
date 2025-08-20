@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بيت الحكمة الطبي التخصصي | Bait Elhekma Medical Polyclinic</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- رأس الصفحة / Header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="بيت الحكمة الطبي">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link" data-lang="ar">الرئيسية</a><a href="#home" class="nav-link" data-lang="en">Home</a></li>
+                <li><a href="#about" class="nav-link" data-lang="ar">عن العيادة</a><a href="#about" class="nav-link" data-lang="en">About Us</a></li>
+                <li><a href="#services" class="nav-link" data-lang="ar">الخدمات</a><a href="#services" class="nav-link" data-lang="en">Services</a></li>
+                <li><a href="#doctors" class="nav-link" data-lang="ar">الأطباء</a><a href="#doctors" class="nav-link" data-lang="en">Doctors</a></li>
+                <li><a href="#contact" class="nav-link" data-lang="ar">تواصل معنا</a><a href="#contact" class="nav-link" data-lang="en">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <button onclick="switchLanguage('ar')">عربي</button>
+            <button onclick="switchLanguage('en')">EN</button>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي / Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 data-lang="ar">رعاية طبية شاملة لك ولعائلتك</h1>
+            <h1 data-lang="en">Comprehensive Medical Care for You and Your Family</h1>
+            <p data-lang="ar">نقدم أفضل خدمات التحاليل الطبية، الأسنان، التجميل وجميع التخصصات الطبية.</p>
+            <p data-lang="en">We provide the best medical lab, dental, cosmetic, and specialized healthcare services.</p>
+            <a href="#contact" class="btn" data-lang="ar">احجز الآن</a>
+            <a href="#contact" class="btn" data-lang="en">Book Now</a>
+        </div>
+    </section>
+
+    <!-- عن العيادة / About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 data-lang="ar">عن بيت الحكمة الطبي</h2>
+            <h2 data-lang="en">About Bait Elhekma Medical</h2>
+            <p data-lang="ar">
+                بيت الحكمة الطبي التخصصي يقدم رعاية طبية متكاملة مع أحدث الأجهزة الطبية وكادر طبي متخصص لضمان أفضل خدمة للمرضى.
+            </p>
+            <p data-lang="en">
+                Bait Elhekma Medical Polyclinic provides comprehensive healthcare with the latest medical equipment and specialized medical staff to ensure the best service for patients.
+            </p>
+        </div>
+    </section>
+
+    <!-- الخدمات / Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2 data-lang="ar">خدماتنا</h2>
+            <h2 data-lang="en">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="images/lab.jpg" alt="تحاليل طبية">
+                    <h3 data-lang="ar">تحاليل طبية</h3>
+                    <h3 data-lang="en">Medical Lab</h3>
+                    <p data-lang="ar">أحدث أجهزة التحاليل الطبية لجميع الفحوصات بدقة وسرعة.</p>
+                    <p data-lang="en">State-of-the-art lab equipment for accurate and fast medical tests.</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/dental.jpg" alt="خدمات الأسنان">
+                    <h3 data-lang="ar">خدمات الأسنان</h3>
+                    <h3 data-lang="en">Dental Services</h3>
+                    <p data-lang="ar">جميع أنواع علاج الأسنان، تقويم، وزراعة الأسنان.</p>
+                    <p data-lang="en">All types of dental care, orthodontics, and dental implants.</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/cosmetic.jpg" alt="خدمات التجميل">
+                    <h3 data-lang="ar">خدمات التجميل</h3>
+                    <h3 data-lang="en">Cosmetic Services</h3>
+                    <p data-lang="ar">حقن البوتوكس، الفيلر، العناية بالبشرة، وجلسات التجميل المتكاملة.</p>
+                    <p data-lang="en">Botox, fillers, skincare, and comprehensive cosmetic sessions.</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/other.jpg" alt="تخصصات طبية أخرى">
+                    <h3 data-lang="ar">تخصصات أخرى</h3>
+                    <h3 data-lang="en">Other Specialties</h3>
+                    <p data-lang="ar">جميع التخصصات الطبية الأخرى تحت إشراف فريق متخصص.</p>
+                    <p data-lang="en">All other medical specialties under the supervision of a specialized team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الأطباء / Doctors Section -->
+    <section id="doctors">
+        <div class="container">
+            <h2 data-lang="ar">أطباؤنا</h2>
+            <h2 data-lang="en">Our Doctors</h2>
+            <div class="doctors-grid">
+                <!-- مثال لدكتور -->
+                <div class="doctor-card">
+                    <img src="images/doctor1.jpg" alt="د. محمد أحمد">
+                    <h3>د. محمد أحمد</h3>
+                    <p data-lang="ar">أخصائي أسنان</p>
+                    <p data-lang="en">Dental Specialist</p>
+                </div>
+                <div class="doctor-card">
+                    <img src="images/doctor2.jpg" alt="د. سارة علي">
+                    <h3>د. سارة علي</h3>
+                    <p data-lang="ar">أخصائية تجميل</p>
+                    <p data-lang="en">Cosmetic Specialist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تواصل معنا / Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 data-lang="ar">تواصل معنا</h2>
+            <h2 data-lang="en">Contact Us</h2>
+            <div class="contact-info">
+                <p data-lang="ar">📞 الهاتف: 01014405094</p>
+                <p data-lang="en">📞 Phone: 01014405094</p>
+                <p data-lang="ar">📍 العنوان: آخر فيصل الرئيسي باتجاه الرماية، بجوار بنك الكويت الوطني، الدور الأول ببرج فيصل بلازا، أعلى فودافون.</p>
+                <p data-lang="en">📍 Address: Last Faisal Main Road towards Ramaya, next to Kuwait National Bank, 1st Floor, Faisal Plaza Tower, above Vodafone.</p>
+            </div>
+            <form>
+                <input type="text" placeholder="الاسم / Name" required>
+                <input type="email" placeholder="البريد الإلكتروني / Email" required>
+                <textarea placeholder="رسالتك / Your Message" required></textarea>
+                <button type="submit" data-lang="ar">إرسال</button>
+                <button type="submit" data-lang="en">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة / Footer -->
+    <footer>
+        <p data-lang="ar">جميع الحقوق محفوظة © 2025 بيت الحكمة الطبي التخصصي</p>
+        <p data-lang="en">All Rights Reserved © 2025 Bait Elhekma Medical Polyclinic</p>
+    </footer>
+</body>
+</html>
